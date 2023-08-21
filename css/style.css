@@ -24,3 +24,33 @@ html {
 body {
   font-size: 1rem;
 }
+/* 공통요소 */
+.clearfix::after{
+  position: relative;
+  display: block;
+  width: 100%;
+  clear: both;
+}
+/* after: 태그의 안쪽, 내용의 뒷쪽 */
+/* haeder의 clearfix를 보면 </header>바로 앞쪽 */
+.inner{
+  position: relative;
+}
+/* 상단 */
+.header{}
+/* 비주얼 */
+.visual{}
+/* 대전홍보 */
+.cityinfo{}
+/* 페스티벌소개 */
+.festivalinfo{}
+/* 프로그램소개 */
+.programinfo{}
+/* 행사일정 */
+.schedule{}
+/* 행사장 안내 */
+.map{}
+/* 이벤트 */
+.event{}
+/* 하단 */
+.footer{}
