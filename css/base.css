@@ -21,6 +21,16 @@ html {
   font-size: 16px;
 }
 body {
-    /* font 셋팅 필요 */
-  font-size: 1rem;
+  font-family: 'Noto Sans KR', "TTWanjudaedunsancheB", sans-serif;
+  /* font-size: 1rem; */
+  font-size: 12px;
+  line-height: 1.4;
+  letter-spacing: -.68px;
+  word-break: keep-all;
+  /* 화면이 줄어들어도 글자가 화면에 다 보일 수 있게 만들어 줌 */
+  color: #000;
+  font-weight: 400;
+  /* 100 = thin */
+  /* 400 = nomal */
+  /* 800 = bold */
 }
